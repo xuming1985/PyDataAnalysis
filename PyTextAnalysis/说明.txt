@@ -1,0 +1,27 @@
+本项目主要实现NLP (自然语言处理)
+包括
+1. 词干提取
+	什么是词干提取？词干提取是将词语去除变化或衍生形式，转换为词干或原型形式的过程。词干提取的目标是将相	关词语还原为同样的词干，哪怕词干并非词典的词目。例如，英文中:1.beautiful和beautifully的词干同为	beauti2.Good,better和best 的词干分别为good,better和best。相关算法：在Python上可以使用Porter2词干算法	(https://tartarus.org/martin/PorterStemmer/def.txt)
+
+2. 词形还原
+	什么是词形还原？ 词形还原是将一组词语还原为词源或词典的词目形式的过程。还原过程考虑到了POS问题，即词		语在句中的语义，词语对相邻语句的语义等。例如，英语中：1.beautiful和beautifully被分别还原为beautiful和		beautifully。2.good, better和best被分别还原为good, good和good
+
+3. 词向量化
+	什么是词向量化？词向量化是用一组实数构成的向量代表自然语言的叫法。这种技术非常实用，因为电脑无法处理	自然语言。词向量化可以捕捉到自然语言和实数间的本质关系。通过词向量化，一个词语或者一段短语可以用一个	定维的向量表示，例如向量的长度可以为100。
+
+4. 词性标注
+	什么事词性标注？简单来说，词性标注是对句子中的词语标注为名字、动词、形容词、副词等的过程。例如，对句	子“Ashok killed the snake with a stick”，词性标注会识别：Ashok 代词killed 动词the 限定词snake 名词with 	连词a 限定词stick 名词. 标点  Ashok 代词killed 动词the 限定词snake 名词with 连词a 限定词stick 名词. 标点
+
+5. 命名实体消岐
+
+6. 命名实体识别
+
+7. 情感分析
+
+8. 文本语义相似分析 similarity
+
+9. 语种辨识
+
+10. 文本总结
+
+11. 词云图 WordCloud

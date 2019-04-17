@@ -1,6 +1,8 @@
 import jieba
 from gensim import corpora,models,similarities
 
+# 文本相似度分析
+
 doc0 = "我不喜欢上海"
 doc1 = "上海是一个好地方"
 doc2 = "北京是一个好地方"
